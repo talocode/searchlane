@@ -1,0 +1,55 @@
+{
+  "name": "@talocode/searchlane",
+  "version": "0.1.0",
+  "description": "Agent web search & research API — structured query, news, and multi-source research with citations",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "searchlane": "./dist/cli.js"
+  },
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "start": "tsx src/server.ts",
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test tests/**/*.test.ts",
+    "prepublishOnly": "npm run build && npm test"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "search",
+    "agent-search",
+    "research",
+    "web-search",
+    "tavily",
+    "exa",
+    "talocode",
+    "mcp",
+    "agents"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/talocode/searchlane.git"
+  },
+  "homepage": "https://github.com/talocode/searchlane#readme",
+  "bugs": {
+    "url": "https://github.com/talocode/searchlane/issues"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
