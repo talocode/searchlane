@@ -5,3 +5,4 @@ dist/
 *.tgz
 .DS_Store
 release-assets/
+sea-prep.blob
