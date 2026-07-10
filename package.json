@@ -1,6 +1,6 @@
 {
   "name": "@talocode/searchlane",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Agent web search & research API — structured query, news, and multi-source research with citations",
   "type": "module",
   "main": "dist/index.js",
