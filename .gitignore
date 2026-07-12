@@ -6,3 +6,8 @@ dist/
 .DS_Store
 release-assets/
 sea-prep.blob
+# Python package build
+python/dist/
+python/build/
+python/*.egg-info/
+python/**/__pycache__/

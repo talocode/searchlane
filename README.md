@@ -10,6 +10,10 @@ Part of [Talocode](https://docs.talocode.site). Hosted at `/v1/searchlane/*`.
 npm install @talocode/searchlane
 ```
 
+```bash
+pip install talocode-searchlane
+```
+
 ## SDK
 
 ```ts
@@ -26,6 +30,16 @@ const brief = await search.research({ query: 'What is llms.txt?' })
 import { Talocode } from '@talocode/sdk'
 const tc = new Talocode({ apiKey: process.env.TALOCODE_API_KEY })
 await tc.searchlane.query({ query: 'geolane ai visibility' })
+```
+
+### Python
+
+```python
+from searchlane import SearchLaneClient
+
+client = SearchLaneClient()  # TALOCODE_API_KEY
+hits = client.query(query="MCP agent tools", limit=5)
+brief = client.research(query="What is llms.txt?")
 ```
 
 ## CLI
