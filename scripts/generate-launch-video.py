@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-SearchLane launch video — follows clueso brief-to-launch-video arc:
-Hook → Reveal → Points 1-3 → Proof → CTA
-Kinetic typography motion graphics, 16:9, ~45s.
+SearchLane launch video.
+Arc: Hook → Reveal → Points 1-3 → Proof → CTA
+Kinetic typography motion graphics, 16:9.
 """
 from __future__ import annotations
 
@@ -124,7 +124,7 @@ def word_reveal(draw, words, y, fnt, fill, progress, gap=18):
     return y + th + 12
 
 
-# Script beats (from brief-to-launch-video skill)
+# Script beats: Hook → Reveal → Points → Proof → CTA
 # (duration_sec, kind, payload)
 BEATS = [
     # Hook ~3.5s

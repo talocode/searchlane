@@ -1,6 +1,6 @@
 # SearchLane launch brief
 
-Used with Clueso skill **brief-to-launch-video**.
+Product launch video brief for SearchLane.
 
 ## Product
 **SearchLane** — Agent Web Search & Research API
@@ -15,7 +15,7 @@ Credit-metered web search for agents: structured hits, news, research briefs wit
 1. Structured search hits (title, url, snippet, score)
 2. Research mode with multi-source dig + citations
 3. REST + MCP + SDK + CLI; pay-per-call credits
-4. Providers: Brave / Serper / DuckDuckGo fallback
+4. Multi-provider search with free-path fallback
 
 ## CTA
 `npm i @talocode/searchlane` · github.com/talocode/searchlane
@@ -32,7 +32,7 @@ Credit-metered web search for agents: structured hits, news, research briefs wit
 | Proof | Five credits to query. Eight for news. Thirty for research. |
 | CTA | Ship search as a product. npm install at talocode slash searchlane. |
 
-## Local render (no Clueso)
+## Local render
 ```bash
 python3 scripts/generate-launch-video.py
 # → release-assets/searchlane-launch-video.mp4
