@@ -54,9 +54,12 @@ POST /v1/searchlane/research  30 credits
 
 Auth: `Authorization: Bearer $TALOCODE_API_KEY`
 
-### Demo
+### Demo / launch video
 
-See **searchlane-demo.mp4** in this release.
+- **searchlane-launch-video.mp4** — ~30s kinetic launch film (Hook → Reveal → Points → Proof → CTA)
+- **searchlane-demo.mp4** — terminal-style product demo
+
+Android / iOS: use `npm i -g @talocode/searchlane` or the **portable-node** tarball (Termux / iSH).
 
 ### Links
 
